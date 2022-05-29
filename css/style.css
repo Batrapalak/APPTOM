@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   line-height: 1.9;
@@ -11,8 +11,9 @@ body {
     content: "";
     top: 0;
     left: 0;
-    right: 0;
-    background: #8bbabb; }
+    right: 0; */
+    /* background-image: url("img/Contact_us.png"); */
+   /* } */
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -69,7 +70,7 @@ a {
   letter-spacing: .2rem;
   text-transform: uppercase; }
   .btn.btn-primary {
-    background: #35477d;
+    background: #2D3D43;
     color: #fff;
     padding: 15px 20px; }
   .btn:hover {
@@ -102,11 +103,11 @@ a {
   .contact-wrap .form {
     background: #fff; }
     .contact-wrap .form h3 {
-      color: #35477d;
+      color: #2D3D43;
       font-size: 20px;
       margin-bottom: 30px; }
   .contact-wrap .contact-info {
-    background: #35477d; }
+    background: #2D3D43; }
     .contact-wrap .contact-info h3 {
       color: #fff;
       font-size: 20px;
@@ -126,7 +127,7 @@ label.error {
   color: #B90B0B; }
 
 #form-message-success {
-  color: #55A44E;
+  color: #2D3D43;
   font-size: 18px;
   font-weight: bold; }
 
