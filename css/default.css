@@ -7017,6 +7017,10 @@ button.bg-dark:focus {
   font-style: italic !important; }
 
 .text-white {
+  font-size:40px;
+  /* line-height:50px; */
+  /* background-color: var(--white); */
+  font-family:"Cinzel-Regular";
   color: #fff !important; }
 
 .text-primary {
