@@ -928,4 +928,35 @@
 
 
 
-      
+      $(document).ready(function(){
+        $('#purpose').on('change', function() {
+          if ( this.value == '1')
+          {
+            $("#business").show();
+          }
+          else
+          {
+            $("#business").hide();
+          }
+        });
+    });
+
+
+
+
+
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+
+//       $("#top100").click(function(){   //id of the link which is being clicked
+//         $('html, body').animate({
+//                scrollTop: $("#fcc").offset().top   //id of div to be scrolled
+//         }, 1000);
+//   });
