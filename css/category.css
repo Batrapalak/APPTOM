@@ -2102,7 +2102,7 @@ width:100%;display:block;text-align:center;color:#ffffff;font-size:30px;line-hei
 }
 
 .bg-indust {
-  background: #09192C;
+  background: #09192C !important;
 }
 
 .crd4 a {
