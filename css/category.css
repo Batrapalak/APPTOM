@@ -1759,9 +1759,13 @@ height: 500px;
   padding-top: 15rem !important; }
 
   .btn-success{
-    background-color: #09192C;
+    background-color: #000000;
   }
-    
+   
+
+  .btn-success:hover{
+    background-color:  #1E4652;
+  }
 .main_div{
   font-size: 40px;
   line-height: 45px;
@@ -2099,4 +2103,8 @@ width:100%;display:block;text-align:center;color:#ffffff;font-size:30px;line-hei
 
 .bg-indust {
   background: #09192C;
+}
+
+.crd4 a {
+  color: #1E4652;
 }
